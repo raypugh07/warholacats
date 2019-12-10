@@ -263,3 +263,24 @@ textarea {
   }
 }
 
+/* my code */
+
+header img{
+ /* border:solid red;*/
+  width:100%;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid silver;
+  box-shadow: 0 0 8px silver;
+  width: 65%;
+  height: 60%;
+  margin: 20vh auto;
+  padding: 3% 0;
+  background: #FFF;
+  border-radius: 3px;
+}
+
