@@ -265,9 +265,16 @@ textarea {
 
 /* my code */
 
+body{
+  background: #F8A5A7;
+  margin:auto;
+}
+
 header img{
  /* border:solid red;*/
   width:100%;
+  border-radius: 3px;
+
 }
 
 /* carousel from amanda lane thanks!*/
@@ -333,6 +340,29 @@ button:focus {
     width: 70vw;
   }
 }*/
+
+.spotify {
+  /*border:solid red;*/
+ /* margin-bottom:10px;*/
+ border-radius: 3px;
+ margin-left:3px;
+
+  margin-right:3px;
+
+ 
+}
+
+.performance{
+  /*border:solid red;*/
+  width:100%;
+  border-radius: 3px;
+  margin-top:8px;
+  margin-left:3px;
+
+  margin-right:3px;
+
+
+}
 
 
 
