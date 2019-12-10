@@ -270,17 +270,69 @@ header img{
   width:100%;
 }
 
-.carousel {
+/* carousel from amanda lane thanks!*/
+
+.carousel-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid silver;
+ /* border: 1px solid silver;*/ /*contemplating the border situation */
   box-shadow: 0 0 8px silver;
-  width: 65%;
+  width: 100%;
   height: 60%;
-  margin: 20vh auto;
+ /* margin: 20vh auto;*/
   padding: 3% 0;
-  background: #FFF;
+  background: #F8A5A7;
   border-radius: 3px;
+  /*border:solid blue;*/
 }
+
+.standard {
+  /*min-width: 50%;*/
+  min-height: 50%;
+  height: 300px;
+  width: 75%;
+  object-fit: cover;
+  border-radius: 3px;
+  transition: .3s linear;
+  opacity: 0;
+ /* border:solid red;*/
+
+}
+
+.image {
+  opacity: 1;
+}
+
+button {
+  border: none;
+  background: none;
+  margin: 1%;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  color: #3C1325;
+ /* border:solid red;*/
+
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+/*@media (max-width: 600px){
+  .carousel-wrapper {
+    width: 90vw;
+  }
+  
+  .standard {
+    width: 70vw;
+  }
+}*/
+
+
 
