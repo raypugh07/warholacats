@@ -2,8 +2,9 @@ let i = 0;
 let images = [];
 
 images[0] = './assets/erosandvibes.jpg';  //eros and vibes album cover
-images[1] = 'https://www.tapchief.com/blog/wp-content/uploads/2018/02/Pexels.jpg';  //stock photos for now
-images[2] = 'http://sfwallpaper.com/images/high-quality-images-6.jpg';
+images[1] = './assets/makeme.jpg';  //make me 
+images[2] = './assets/starsoverthelake.jpg'; //stars over the lake
+images[3] = './assets/inthislight.jpg'; //in this light cover
 
 // console.log(images)
 
