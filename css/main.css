@@ -15,10 +15,10 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  /* border:solid red; */
-  width:100%;
+  /* border:solid yellow; */
   /* margin:auto; */
   /* padding: 1px 1px 1px 1px; */
+  
 }
 
 /*
@@ -269,25 +269,63 @@ textarea {
 
 /* my code */
 
+body, html{
+  height:100%;
+}
+
 body{
   /* border:solid red; */
   background: #F8A5A7;
+  /* border:solid green; */
+  width:100%;
   margin:auto;
   display:flex;
   flex-direction: column;
+
+ 
+ 
 }
+
+
 
 header{
   /* border:solid blue; */
   width:100%;
   margin:auto;
+  /* border: solid #F8A5A7; */
 }
 
 header img{
   /* border:solid red; */
   width:100%;
   border-radius: 3px;
+  /* border: solid #F8A5A7; */
+  
 
+}
+
+.container{
+  width:100%;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  /* border:solid red; */
+  flex: 1 0 auto;
+
+  
+ 
+}
+
+.container2{
+  width:100%;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  /* border:solid red; */
+  flex: 1 0 auto;
+
+  
+ 
 }
 
 h1{
@@ -306,8 +344,8 @@ h1{
   align-items: center;
   justify-content: center;
  /* border: 1px solid silver;*/ /*contemplating the border situation */
-  box-shadow: 0 0 8px silver;
-  width: 100%;
+  /* box-shadow: 0 0 8px silver; */
+  width: 95%;
   height: 60%;
  /* margin: 20vh auto;*/
   margin:auto;
@@ -321,12 +359,12 @@ h1{
   /*min-width: 50%;*/
   min-height: 50%;
   height: 300px;
-  width: 75%;
+  width: 85%;
   object-fit: cover;
   border-radius: 3px;
   transition: .3s linear;
   opacity: 0;
- /* border:solid red;*/
+ /* border:solid red; */
 
 }
 
@@ -365,26 +403,193 @@ button:focus {
 }*/
 
 .spotify {
-  /*border:solid red;*/
+  border:solid #F8A5A7;
  /* margin-bottom:10px;*/
- border-radius: 3px;
- margin-left:3px;
-
+  border-radius: 3px;
+  margin-left:3px;
   margin-right:3px;
+  width:95%;
 
  
 }
 
 .performance{
-  /* border:solid red; */
-  width:100%;
+  border:solid #F8A5A7;
+  width:95%;
   border-radius: 3px;
-  margin:8px 2px auto 2px;
+  /* margin:8px 2px auto 2px; */
  /*  margin-left:3px;
   margin-right:3px; */
+  margin-top:8px;
+  margin-left:3px;
+  margin-right:3px;
 
 }
 
+.iframe{
+  /* border:solid red; */
+  padding:2px;
+  margin:2px;
+  width:100%;
+}
 
+.shows{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: #3C1325;
+
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+
+footer{
+  display:flex;
+  justify-content: space-around;
+  /* border:solid red; */
+  font-size: 1.2rem;
+  flex-shrink: 0;
+
+  
+}
+
+footer nav a{
+  font-family: 'Lobster', cursive;
+  color: #3C1325;
+  margin:5px;
+
+}
+
+h3{
+  font-family: 'Lobster', cursive;
+  color: #3C1325;
+  text-align: center;
+
+}
+
+.aboutus{
+  /* border:solid red; */
+  text-align: justify;
+  padding:8px;
+  font-weight: bold;
+  font-family: cursive;
+
+}
+
+.noshows{
+  text-align: center;
+  padding:8px;
+  font-weight: bold;
+  font-family: cursive;
+
+}
+
+.upcomingshows{
+  text-decoration: underline;
+}
+
+
+/* desktop version*/
+
+@media (min-width:500px){
+
+  .standard {
+    /*min-width: 50%;*/
+    min-height: 50%;
+    height: 440px;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 3px;
+    transition: .3s linear;
+    opacity: 0;
+   /* border:solid red; */
+  
+  }
+
+  .image {
+    opacity: 1;
+  }
+
+}
+
+@media (min-width:1100px){
+  
+  .container{
+    /* border:solid red; */
+    display:flex;
+    flex-flow: row;
+  }
+
+  
+
+  h1{
+    /* border:solid red; */
+    width:500px;
+    height:50px;
+    padding:5px;
+    margin-left:15%;
+  }
+
+  .carousel-wrapper{
+    /* border:solid green; */
+    position: relative;
+    right: 25%;
+
+
+  }
+
+  .standard {
+    /*min-width: 50%;*/
+    min-height: 50%;
+    height: 340px;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 3px;
+    transition: .3s linear;
+    opacity: 0;
+   /* border:solid red; */
+   /* margin-right:150%; */
+  
+  }
+
+  .image {
+    opacity: 1;
+  }
+
+  header{
+    display:flex;
+    justify-content: center;
+  }
+
+  header img{
+    width: 75%;
+    
+  }
+
+  .spotify{
+    /* border:solid blue; */
+  
+
+  }
+
+  .performance{
+    /* border:solid green; */
+   
+
+  }
+
+  .iframe{
+    /* border:solid red; */
+    padding:2px;
+    margin:2px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    right: 10%;
+  }
+
+}
 
 

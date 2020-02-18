@@ -24,9 +24,16 @@
 
 
   <meta name="theme-color" content="#fafafa">
+
+
 </head>
 
+
+
 <body>
+  <header>
+    <img src="./assets/header.png" alt="warhola cats performing">
+  </header>
 
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -34,10 +41,10 @@
 
   <!-- Add your site or application content here -->
 
-  <header>
-    <img src="./assets/header.png" alt="warhola cats performing">
-  </header>
-  
+ 
+<div class='container'>
+ 
+
   <h1>Warhola Cats</h1>
 
   <div class="carousel-wrapper">
@@ -46,13 +53,28 @@
       <button class="next-btn">&#187;</button>
     </div>
 
-
-    <iframe class='spotify' src="https://open.spotify.com/album/79eMtsQtdAWJevh1XzYrWu?si=RrCCkTnbTJ6qNlSZ7_bUEQ" width="100%" height="240" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
+<div class="iframe">
+  <iframe class='spotify' src="https://open.spotify.com/embed/artist/1uHFlrixmSGtf3t1SduM0h" height="240" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     <iframe class='performance' height="315" src="https://www.youtube.com/embed/fQ_OyO1mOa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div> 
 
 
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
+
+
+<!-- <h2 class='shows'>Shows</h2> -->
+
+</div><!--container-->
+
+<footer>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shows.html">Shows</a>
+    <a href="about.html">Get to Know Us</a>
+  </nav>
+</footer>
+
+
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
