@@ -469,6 +469,13 @@ h3{
 
 }
 
+h4{
+  font-family: 'Lobster', cursive;
+  color: #3C1325;
+  text-align: center;
+
+}
+
 .aboutus{
   /* border:solid red; */
   text-align: justify;
@@ -476,6 +483,18 @@ h3{
   font-weight: bold;
   font-family: 'Sriracha', cursive;
 
+}
+
+.icons{
+  /* border:solid red; */
+  width:32px;
+  margin:3px;
+}
+
+.iconsdiv{
+  display: flex;
+  justify-content: center;
+  padding:5px;
 }
 
 .noshows{
